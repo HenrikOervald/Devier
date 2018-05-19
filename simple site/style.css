@@ -1,0 +1,133 @@
+body{
+    height: 100%;
+}
+
+.header-wrap{
+    margin-top:20px;
+    margin-bottom: 60px;
+}
+
+.header-wrap img{
+    max-width: 400px; 
+    max-height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: auto; 
+    width: auto;
+}
+
+.body-wrap{
+    margin-top:10%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.img-wrap{
+    display: block;
+    width: 90%;
+    margin: auto auto; 
+}
+
+img{
+    
+    max-width: 500px; 
+    max-height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: auto; 
+    width: auto; 
+}
+
+.bottom-wrap{
+    width: 100%;
+    bottom: 340px;
+    position: absolute;
+    display: block;  
+}
+
+.bottom-center{
+    width: 40%;
+    display: block;
+    margin:auto auto;
+    text-align: center;
+
+    -webkit-transform: rotate(90deg) scale(1,-1);
+    -moz-transform: rotate(90deg) scale(1,-1);
+    -o-transform: rotate(90deg) scale(1,-1);
+    -ms-transform: rotate(90deg) scale(1,-1);
+    transform: rotate(90deg) scale(1,-1);
+}
+
+.glyphicon{
+    font-size: 45px;  
+}
+
+.article h1, h3, p{
+    font-family: 'Lato';
+}
+
+.article{
+    width:100%;
+}   
+
+.article-wrapper{
+    max-width: 750px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.article h3{
+    color: #101010;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .6px;
+}
+
+.article h1{
+    color: #101010;
+    font-weight: lighter;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 3px;
+}
+
+.article p{
+    color: #101010;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .6px;
+    margin-bottom: 24px;
+}
+
+.article p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #101010;
+}
+
+@media only screen and (max-width: 525px) {
+    img{
+        width:80%;
+    }
+    .header-wrap img{    
+            width:80%;
+    }
+    .glyphicon{
+        font-size: 40px;  
+    }
+}
+
+@media only screen and (max-width: 785px) {
+.article h1{
+    color: #101010;
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+}

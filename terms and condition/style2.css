@@ -1,0 +1,45 @@
+.article h1, h3, p{
+    font-family: 'Lato';
+}
+
+.article{
+    width:100%;
+}   
+
+.article-wrapper{
+    max-width: 750px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.article h3{
+    color: #101010;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .6px;
+}
+
+.article h1{
+    color: #101010;
+    font-weight: lighter;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 3px;
+}
+
+.article p{
+    color: #101010;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .6px;
+    margin-bottom: 24px;
+}
+
+.article p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #101010;
+}
+
